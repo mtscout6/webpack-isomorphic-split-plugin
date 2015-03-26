@@ -1,0 +1,35 @@
+{
+  "name": "webpack-isomorphic-split-plugin",
+  "version": "0.0.0",
+  "description": "Webpack plugin to split client and server code at the module level",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib",
+    "test": "echo 'TODO - Add Tests' && npm run lint",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtscout6/webpack-isomorphic-split-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "isomorphic"
+  ],
+  "author": "Matthew L Smith <mtscout6@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtscout6/webpack-isomorphic-split-plugin/issues"
+  },
+  "homepage": "https://github.com/mtscout6/webpack-isomorphic-split-plugin",
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "babel-eslint": "^2.0.2",
+    "eslint": "^0.17.1"
+  },
+  "dependencies": {
+    "fs-promise": "^0.3.1",
+    "lodash": "^3.6.0"
+  }
+}
